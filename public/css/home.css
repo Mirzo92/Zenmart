@@ -549,3 +549,20 @@
 .container .pagionation_main img {
   padding: 5px;
 }
+
+.adv_frame {
+  margin-top: 90px;
+  width: 100%;
+  height: 120px;
+  background-color: #e5edff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: rgb(0, 83, 246);
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
