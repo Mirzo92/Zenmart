@@ -305,7 +305,7 @@ P {
   background: rgb(243, 245, 246);
 }
 
-.footer_spec_title {
+.footer_frame .footer_spec_title {
   display: block;
   margin-bottom: 30px;
   color: rgb(4, 30, 66);
@@ -321,36 +321,36 @@ P {
   flex-direction: column;
 }
 
-.container .footer_top {
+.footer_frame .container .footer_top {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: row;
 }
 
-.footer_contact_box {
+.footer_frame .footer_contact_box {
   display: flex;
   flex-direction: column;
 }
 
-.footer_contact_box .footer_contact_main {
+.footer_frame .footer_contact_box .footer_contact_main {
   margin-bottom: 30px;
   display: flex;
   flex-direction: row;
 }
 
-.footer_contact_main img {
+.footer_frame .footer_contact_main img {
   width: 35px;
   height: 30px;
 }
 
-.footer_contact_main div {
+.footer_frame .footer_contact_main div {
   margin-left: 30px;
   display: flex;
   flex-direction: column;
 }
 
-.footer_contact_main div strong {
+.footer_frame .footer_contact_main div strong {
   color: rgb(4, 30, 66);
   font-family: var(--font);
   font-size: 15px;
@@ -359,7 +359,7 @@ P {
   letter-spacing: 0%;
 }
 
-.footer_contact_main div span {
+.footer_frame .footer_contact_main div span {
   margin-top: 10px;
   color: rgb(4, 30, 66);
   font-family: var(--font);
@@ -369,7 +369,7 @@ P {
   letter-spacing: 0%;
 }
 
-.footer_top .footer_support_box {
+.footer_frame .footer_top .footer_support_box {
   margin-left: 60px;
   width: 165px;
   height: 200px;
@@ -377,7 +377,7 @@ P {
   flex-direction: column;
 }
 
-.footer_support_box a {
+.footer_frame .footer_support_box a {
   color: rgb(4, 30, 66);
   font-family: var(--font);
   font-size: 14px;
@@ -385,39 +385,39 @@ P {
   line-height: 40px;
 }
 
-.footer_media_box {
+.footer_frame .footer_media_box {
   margin-left: 55px;
   display: flex;
   flex-direction: column;
 }
 
-.footer_media_box .footer_media_main {
+.footer_frame .footer_media_box .footer_media_main {
   display: flex;
   flex-direction: column;
 }
 
-.footer_media_main .media_box {
+.footer_frame .footer_media_main .media_box {
   margin-bottom: 30px;
   display: flex;
   flex-direction: row;
 }
 
-.media_box i {
+.footer_frame .media_box i {
   margin-right: 25px;
 }
 
-.footer_media_main .mobile_app_box {
+.footer_frame .footer_media_main .mobile_app_box {
   margin-bottom: 15px;
   display: flex;
   flex-direction: row;
 }
 
-.mobile_app_box img {
+.footer_frame .mobile_app_box img {
   width: 24px;
   height: 16px;
 }
 
-.mobile_app_box span {
+.footer_frame .mobile_app_box span {
   margin-left: 20px;
   color: rgb(4, 30, 66);
   font-family: var(--font);
@@ -426,14 +426,14 @@ P {
   letter-spacing: 0%;
 }
 
-.footer_media_main .card_box {
+.footer_frame .footer_media_main .card_box {
   width: 272px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.container .footer_bottom {
+.footer_frame .container .footer_bottom {
   margin-top: 90px;
   width: 100%;
   height: 60px;
@@ -443,21 +443,21 @@ P {
   border-top: 1px solid rgb(236, 224, 224);
 }
 
-.footer_bottom .footer_main {
+.footer_frame .footer_bottom .footer_main {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: row;
 }
 
-.footer_main .foot_bottom_left {
+.footer_frame .footer_main .foot_bottom_left {
   width: 940px;
   height: auto;
   display: flex;
   flex-direction: row;
 }
 
-.foot_bottom_left span {
+.footer_frame .foot_bottom_left span {
   margin-right: 60px;
   width: 280px;
   color: rgb(4, 30, 66);
@@ -467,7 +467,7 @@ P {
   line-height: 40px;
 }
 
-.foot_bottom_right {
+.footer_frame .foot_bottom_right {
   width: 400px;
   height: auto;
   display: flex;
@@ -475,7 +475,7 @@ P {
   justify-content: space-between;
 }
 
-.foot_bottom_right .footer_select_box {
+.footer_frame .foot_bottom_right .footer_select_box {
   padding: 10px 20px;
   width: 180px;
   height: 40px;
@@ -490,13 +490,13 @@ P {
   background: rgb(255, 255, 255);
 }
 
-.footer_select_box span {
+.footer_frame .footer_select_box span {
   color: rgb(98, 105, 116);
   font-family: Jost;
   font-size: 14px;
 }
 
-.footer_select_box select {
+.footer_frame .footer_select_box select {
   margin-left: 20px;
   width: 70px;
   height: 90%;
